@@ -5,8 +5,9 @@ public class TestJUnit {
 
     @Test
     public void testSum(){
-        Test t = new Test();
+        Testing t = new Testing();
         assertEquals(15, t.sum(10,5));
     }
 }
+
 
